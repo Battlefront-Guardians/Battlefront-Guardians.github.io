@@ -1,2 +1,2 @@
-# This is where BFG website assets are in
-There isn't anything important here.
+# BFG's Website
+This repository contains the source code of the BFG (Battlefront Guardians) website.
