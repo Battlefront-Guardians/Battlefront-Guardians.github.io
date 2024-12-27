@@ -1,3 +1,106 @@
-h1, h2, h3 {
-    color: #ffcc00;
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #2d2d2d;
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background: #1a1a1a;
+    color: #d4af37;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #4b5320;
+}
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.header p {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+/* Main Content */
+.main-content {
+    padding: 20px;
+}
+
+/* FAQ Section */
+.faq-section {
+    background: #333333;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.faq-section h2 {
+    color: #d4af37;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4b5320;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.faq-item {
+    margin-bottom: 15px;
+}
+.faq-item h3 {
+    color: #4b5320;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+.faq-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #dddddd;
+}
+
+/* Discord Section */
+.discord-section {
+    text-align: center;
+    margin-top: 20px;
+}
+.discord-section h2 {
+    color: #d4af37;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.discord-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4b5320;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+.discord-link:hover {
+    background: #3e4720;
+}
+
+/* Footer */
+.footer {
+    background: #1a1a1a;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 3px solid #4b5320;
+}
+.footer a {
+    color: #d4af37;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+.footer a:hover {
+    text-decoration: underline;
 }
