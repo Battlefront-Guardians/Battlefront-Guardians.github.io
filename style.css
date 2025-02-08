@@ -31,7 +31,13 @@ body {
 .main-content {
     padding: 20px;
 }
-
+a {
+    color: #00FF00;
+}
+     
+a:hover {
+    color: #65ff72;
+}
 /* FAQ Section */
 .faq-section {
     background: #333333;
